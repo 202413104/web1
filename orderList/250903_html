@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>나의 프로필 페이지</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f5f5f5;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      width: 150px;
+      border-radius: 50%;
+    }
+    section {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: gray;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- TODO: 좋아하는 이미지로 변경하세요 -->
+  <header>
+    <img src="https://via.placeholder.com/150" alt="프로필 사진">
+    <h1>나의 프로필</h1>
+  </header>
+
+  <!-- TODO: 자기소개 문단을 작성하세요 -->
+  <section>
+    <h2>자기소개</h2>
+    <p></p>
+  </section>
+
+  <!-- TODO: 좋아하는 것을 3개 이상 추가하세요 -->
+  <section>
+    <h2>내가 좋아하는 것</h2>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </section>
+
+  <!-- TODO: 본인이 원하는 사이트 링크를 추가하세요 -->
+  <section>
+    <h2>내가 자주 가는 사이트</h2>
+    <a href="https://www.naver.com" target="_blank">네이버</a>
+  </section>
+
+  <!-- TODO: 본인 학교 시간표를 표로 작성하세요 -->
+  <section>
+    <h2>나의 시간표</h2>
+    <table border="1" width="100%">
+      <tr>
+        <th>요일</th>
+        <th>과목</th>
+      </tr>
+      <tr>
+        <td>월요일</td>
+        <td>데이터마이닝</td>
+      </tr>
+      <tr>
+        <td>화요일</td>
+        <td></td>
+      </tr>
+    </table>
+  </section>
+
+  <footer>
+    <!-- TODO: 본인 이름으로 변경하세요 -->
+    <p>© 2025 나의 이름</p>
+  </footer>
+</body>
+</html>
+
+<!-- 
+추가과제
+1. CSS 스타일링 추가하기: 프로필 페이지의 디자인을 개선하기 위해 더 많은 CSS 스타일을 추가해보세요. 예를 들어, 색상, 폰트 스타일, 레이아웃 등을 변경할 수 있습니다. -->
