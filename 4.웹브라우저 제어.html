@@ -1,2 +1,111 @@
 <body style="background-color:black;color:white;"></body>
 #html은 한번 화면에 표시되면 바꿀 능력이 없는 정적인 언어
+ <!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>나의 프로필 페이지</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f5f5f5;
+    }
+
+   
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      width: 150px;
+      border-radius: 50%;
+    }
+    section {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: gray;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="orderList/마이멜로디11.jpg">
+    <h1>나의 프로필</h1>
+  </header>
+
+  <!-- TODO: 자기소개 문단을 작성하세요 -->
+  <section>
+    <h2>자기소개</h2>
+
+    <p>-------------------------내이름은김수민이고용21살입니당-----------------------------
+    --------------
+    </p>
+  </section>
+
+  <!-- TODO: 좋아하는 것을 3개 이상 추가하세요 -->
+  <section>
+    <h2>내가 좋아하는 것</h2>
+    <ul>
+      <li>1.빵</li>
+      <li>2.커피</li>
+      <li>3.말차</li>
+    </ul>
+  </section>
+
+  <!-- TODO: 본인이 원하는 사이트 링크를 추가하세요 -->
+  <section>
+    <h2>내가 자주 가는 사이트</h2>
+    <a href="https://comic.naver.com/webtoon" target="_blank" title="네이버웹툰" </a>
+  </section>
+
+  <!-- TODO: 본인 학교 시간표를 표로 작성하세요 -->
+  <section>
+    <h2>나의 시간표</h2>
+    <table border="1" width="100%">
+      <tr>
+        <th>요일</th>
+        <th>과목</th>
+      </tr>
+      <tr>
+        <td>월요일</td>
+        <td>데이터마이닝</td>
+      </tr>
+      <tr>
+        <td>화요일</td>
+        <td>웹빅데이터</td>
+      </tr>
+      <tr>
+        <td>수요일</td>
+        <td>공강</td>
+      </tr>
+      <tr>
+        <td>목요일</td>
+        <td>웹빅데이터, 자료구조와 알고리즘</td>
+        <!-- <td>자료구조와알고리즘</td> -->
+      </tr>
+      <tr>
+        <td>금요일</td>
+        <td>공간위성빅데이터</td>
+      </tr>
+    </table>
+  </section>
+
+  <footer>
+    <!-- TODO: 본인 이름으로 변경하세요 -->
+    <p>© 2025 김수민</p>
+  </footer>
+</body>
+</html>
